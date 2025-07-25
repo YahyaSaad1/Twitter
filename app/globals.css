@@ -3,7 +3,26 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-username: #71767B;
+  --color-hover: #1c1c1c;
 }
+
+.text-userName{
+  color: var(--color-username);
+}
+
+.bg-userName{
+  color: var(--color-username);
+}
+
+.text-hover:hover{
+  color: var(--color-hover);
+}
+
+.bg-hover:hover{
+  background: var(--color-hover);
+}
+
 
 @theme inline {
   --color-background: var(--background);
